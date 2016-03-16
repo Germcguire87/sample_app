@@ -43,7 +43,7 @@ def send_activation_email
 	UserMailer.account_activation(self).deliver_now
 end
 #sets the password reset attributes
-def creat_reset_digest
+def create_reset_digest
 	self.reset_token = User.new_token
 	update_attribute(:reset_digest, User.digest(reset_token))
 	update_attribute(:reset_sent_at, Time.zone.now)
@@ -67,7 +67,7 @@ def create_activation_digest
 	self.activation_digest = User.digest(activation_token)
 end
 
-def password_reset_expited?
+def password_reset_expired?
 	reset_sent_at < 2.hours.ago
 end
 
