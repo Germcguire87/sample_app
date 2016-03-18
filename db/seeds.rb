@@ -36,5 +36,3 @@ following = users[2..50]
 followers = users[3..40]
 following.each { |followed| user.follow(followed) }
 followers.each { |follower| follower.follow(user) }
-
-To execute the code in Listing 12.14, we reseed the database as usual:
