@@ -4,9 +4,9 @@ This app was created using Ruby on Rails to practice some common web funcionalit
 
 * User Sign up 
 
-* Login/logout funcionality
+* Login/logout functionality
 
-* email validation and password reset funcionality
+* email validation and password reset functionality
 
 * create posts and add pictures to posts.
 
