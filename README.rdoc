@@ -1,28 +1,15 @@
-== README
+== This is a twitter like app.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app was created using Ruby on Rails to practice some common web funcionality including:
 
-Things you may want to cover:
+* User Sign up 
 
-* Ruby version
+* Login/logout funcionality
 
-* System dependencies
+* email validation and password reset funcionality
 
-* Configuration
+* create posts and add pictures to posts.
 
-* Database creation
+* User follow and followed by funcionality
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+This was created following the Ruby on Rails Tutorial by Michael Hartl (a wonderful resource, highly recommended for people getting their feet wet with rails)
